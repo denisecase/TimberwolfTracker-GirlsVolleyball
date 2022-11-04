@@ -75,7 +75,7 @@ function getRemaining(now, location) {
             console.log('ctRemaining=' + ctRemaining + ' ctAways=' + ctAways);
         }
     }
-    if (ctRemaining === 0) { ans = 'There are no ' + gender + ' ' + sport + ' games remaining.'  + victoryText; }
+    if (ctRemaining === 0) { ans = 'There are no ' + gender + ' ' + sport + ' games remaining. '  + victoryText; }
     else if (location === null) { ans = 'There are ' + ctRemaining + ' ' + gender + ' ' + sport + ' games remaining.'; }
     else if (location === home) { ans = 'There are ' + ctHomes + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.'; }
     else if (location === away) { ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.'; }
