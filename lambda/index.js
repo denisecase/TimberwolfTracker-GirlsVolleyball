@@ -58,7 +58,7 @@ function getRemaining(now, location) {
     let ctRemaining = 0;
     let ctHomes = 0;
     let ctAways = 0;
-    let ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining. ' + victoryText;
+    let ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining. ';
     for (let j = 0; j < games.length; j++) {
         const item = games[j];
         const p = item.gamelocation;
@@ -75,7 +75,7 @@ function getRemaining(now, location) {
             console.log('ctRemaining=' + ctRemaining + ' ctAways=' + ctAways);
         }
     }
-    if (ctRemaining === 0) { ans = 'There are no ' + gender + ' ' + sport + ' games remaining.'; }
+    if (ctRemaining === 0) { ans = 'There are no ' + gender + ' ' + sport + ' games remaining.'  + victoryText; }
     else if (location === null) { ans = 'There are ' + ctRemaining + ' ' + gender + ' ' + sport + ' games remaining.'; }
     else if (location === home) { ans = 'There are ' + ctHomes + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.'; }
     else if (location === away) { ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.'; }
