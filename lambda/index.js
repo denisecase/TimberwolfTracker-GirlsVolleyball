@@ -58,7 +58,7 @@ function getRemaining(now, location) {
     let ctRemaining = 0;
     let ctHomes = 0;
     let ctAways = 0;
-    let ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.';
+    let ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining. ' + victoryText;
     for (let j = 0; j < games.length; j++) {
         const item = games[j];
         const p = item.gamelocation;
