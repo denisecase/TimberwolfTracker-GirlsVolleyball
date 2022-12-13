@@ -6,6 +6,13 @@ Log in to the Alexa developer and make your own custom skills.
 
 - See all your skills at <https://developer.amazon.com/alexa/console/ask>.
 
+## Requirements 
+
+You'll want the following on your machine:
+
+- Git
+- VS Code
+
 ## Similar Skills
 
 You are welcome to fork this code and modify it for your own custom skills and schedules. 
@@ -15,6 +22,12 @@ Be sure to review and include the license when doing so.
 
 The following sections are helpful to maintain your code in both AWS (for deployment) and GitHub (for maintenance). 
 You'll only be able to push code for skills and repos you colaborate on (not just contribute).
+
+## Initial Integration with VS Code
+
+Integrate your code with VS Code.
+
+While in AWS, building your skill, access "Code" / "Offline Tools" / "Export to VS Code".
 
 ## Git Remotes
 
