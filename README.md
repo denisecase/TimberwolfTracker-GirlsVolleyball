@@ -1,12 +1,18 @@
 Alexa Skill - Timber Wolf Tracker - Girls Volleyball
 
-> Source for an Alexa Skill
+> Custom Alexa Skill
 
-## 1. Open This Skill
+- Ely Memorial High School, Ely, Minnesota
+- Girls Volleyball
+
+Ask Alexa for schedule information.
+
+
+## 1. First, Open This Skill
 
 Say "Alexa, open Timber Wolf Tracker - Girls Volleyball".
 
-## 2. Ask
+## 2. Second, Ask
 
 Say "When is the next home game?" or "How many games remaining?"
 
