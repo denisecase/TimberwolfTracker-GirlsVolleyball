@@ -37,7 +37,9 @@ The github remote has just main.
 
 Switch between branches to push to both places. 
 
-To push change to GitHub as well, change branch, verify, push, and return to master:
+To push change to GitHub as well, change branch, verify, push, and return to master. 
+
+Open a new terminal. Make it a __bash__ shell. Then, run the following commands:
 
 ```
 git branch -M main
