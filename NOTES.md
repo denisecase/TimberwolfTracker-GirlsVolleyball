@@ -46,3 +46,11 @@ git push github main
 git branch -M master
 git branch
 ```
+
+Or - once you're used to branches:
+
+```
+git branch -M main
+git push github main
+git branch -M master
+```
