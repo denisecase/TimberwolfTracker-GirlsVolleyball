@@ -1,0 +1,97 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "timber wolf tracker girls volleyball",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "NextIntent",
+          "slots": [
+            {
+              "name": "Location",
+              "type": "LocationSlotType"
+            }
+          ],
+          "samples": [
+            "where is the next {Location} match",
+            "when is the next {Location} match",
+            "whens the next {Location} match",
+            "wheres the next {Location} match",
+            "wheres the next match",
+            "whens the next match",
+            "whens the next game",
+            "wheres the next {Location} game",
+            "wheres the next game",
+            "where is the next {Location} game",
+            "where is the next game",
+            "when is the next game",
+            "whens the {Location} game",
+            "when is the next {Location} game",
+            "next game"
+          ]
+        },
+        {
+          "name": "RemainingIntent",
+          "slots": [
+            {
+              "name": "Location",
+              "type": "LocationSlotType"
+            }
+          ],
+          "samples": [
+            "how many matches remaining",
+            "how many {Location} matches are left",
+            "how many {Location} matches are there",
+            "how many {Location} matches remaining",
+            "how many more games",
+            "how many more matches remaining",
+            "how many more matches",
+            "how many more matches are there",
+            "how many games remaining",
+            "how many {Location} games remaining",
+            "how many {Location} games are there",
+            "how many {Location} games are left",
+            "how many more games are there"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "away"
+              }
+            },
+            {
+              "name": {
+                "value": "home"
+              }
+            }
+          ],
+          "name": "LocationSlotType"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}

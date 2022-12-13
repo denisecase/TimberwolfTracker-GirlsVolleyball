@@ -1,0 +1,80 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Timberwolf Tracker - Girls Volleyball knows the upcoming sports schedule for Ely Memorial High School in Ely, Minnesota",
+          "examplePhrases": [
+            "Alexa, open Timber Wolf Tracker - Girls Volleyball",
+            "When is the next home game?",
+            "How many matches remaining?"
+          ],
+          "keywords": [
+            "Ely",
+            "Minnesota",
+            "Timberwolves",
+            "high",
+            "school",
+            "volleyball",
+            "schedule",
+            "sports",
+            "athletics"
+          ],
+          "name": "Timberwolf Tracker - Girls Volleyball",
+          "description": "Say Alexa, open Timber Wolf Tracker - Girls Volleyball.  Then ask \u0027when is the next game?\u0027 - or \u0027how many matches remaining?",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Released after the perfect 25-0 2022 season - first first full undefeated regular season in Ely volleyball history",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:520421566376:function:25e979c6-e12c-4616-89ab-9461797eb7ca:Release_1"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:520421566376:function:25e979c6-e12c-4616-89ab-9461797eb7ca:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:520421566376:function:25e979c6-e12c-4616-89ab-9461797eb7ca:Release_1"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:520421566376:function:25e979c6-e12c-4616-89ab-9461797eb7ca:Release_1"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
