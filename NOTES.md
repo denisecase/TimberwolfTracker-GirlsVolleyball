@@ -1,6 +1,20 @@
 # Notes 
 
-These are for those with the ability to deploy the skill.
+## Your Alexa Skills
+
+Log in to the Alexa developer and make your own custom skills. 
+
+- See all your skills at <https://developer.amazon.com/alexa/console/ask>.
+
+## Similar Skills
+
+You are welcome to fork this code and modify it for your own custom skills and schedules. 
+Be sure to review and include the license when doing so. 
+
+## Code in AWS and GitHub
+
+The following sections are helpful to maintain your code in both AWS (for deployment) and GitHub (for maintenance). 
+You'll only be able to push code for skills and repos you colaborate on (not just contribute).
 
 ## Git Remotes
 
@@ -11,7 +25,7 @@ There are 2 git remotes:
 
 Create the first one from within the Alexa Developers console.
 
-Then (just once) open a bash shell and run:
+Then (just once) open a bash shell and run (modify the command based on your repo URL):
 
 `git remote add github https://github.com/denisecase/TimberwolfTracker-GirlsVolleyball.git`
 
