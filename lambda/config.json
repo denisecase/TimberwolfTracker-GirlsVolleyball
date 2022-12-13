@@ -1,0 +1,12 @@
+{
+    "skillName": "Timberwolf Tracker - Girls Volleyball",
+    "gender": "Girls",
+    "sport": "Volleyball",
+    "homecity": "Ely High School",
+    "intentText1": "when is the next game",
+    "intentText2": "how many matches remaining",
+    "helpText": "Say when is the next game or how many matches remaining? Say stop or cancel to exit.",
+    "doneText": "Go Timberwolves - Goodbye!",
+    "errorText": "Sorry, I could not understand. Please try again.",
+    "victoryText": "Congratulations 2022 Timberwolves - first full undefeated regular season in Ely volleyball history!"
+}

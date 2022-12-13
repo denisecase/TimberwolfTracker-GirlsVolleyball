@@ -5,22 +5,25 @@
  * */
 const Alexa = require('ask-sdk-core');
 
-// constants for our custom skill
-const skillName = 'Timberwolf Tracker - Girls Volleyball';
-const gender = 'Girls';
-const sport = 'Volleyball';
-const home = 'home';
-const homecity = 'Ely High School';
-const away = 'away';
-const intentText1 = 'when is the next game';
-const intentText2 = 'how many matches remaining'; 
-const helpText = `Say when is the next game or how many matches remaining? Say stop or cancel to exit.`;
-const doneText = 'Go Timberwolves - Goodbye!';
-const errorText = "Sorry, I could not understand. Please try again.";
-const victoryText = "Congratulations 2022 Timberwolves - first full undefeated regular season in Ely volleyball history!";
-
-// games
+// import custom games.json information
 const games = require('./games');
+
+// import custom config.json information
+const config = require('./config');
+
+// set up local variables
+const home = "home"
+const away = "away"
+const skillName = config.skillName;
+const gender = config.gender;
+const sport = config.sport;
+const homecity = config.homecity;
+const intentText1 = config.intentText1;
+const intentText2 = config.intentText2; 
+const helpText = config.helpText
+const doneText = config.doneText;
+const errorText = config.errorText;
+const victoryText = config.victoryText;
 
 // helper function - get next 
 function getNext(now, location) {
